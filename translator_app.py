@@ -33,6 +33,8 @@ target_lang = st.sidebar.selectbox(
     list(LANGUAGES.keys())
 )
 
+st.sidebar.write("made by ✍️KMS™️")
+
 col1, col2 = st.columns(2)
 
 with col1:
